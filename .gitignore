@@ -1,0 +1,23 @@
+# =============================================================================
+# Git Ignore - MiniProyecto 4: Clasificación de Sonidos ESC-50 con AST
+# =============================================================================
+
+# Particiones locales del dataset (Arrow / descargas pesadas)
+data/
+
+# Carpeta local de imágenes
+images/
+
+# Modelos base y checkpoints de fine-tuning (pesos safetensors / PyTorch)
+model/
+model_esc50_finetuned/
+
+# Cachés y temporales de Python y Jupyter Notebook
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+*.tmp
+.virtual_documents/
+.env
+
